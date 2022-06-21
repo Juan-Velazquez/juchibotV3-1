@@ -1,0 +1,24 @@
+{
+  "nanme": "juchibot_node",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "author": "Angel.JS",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "email-verify": "^0.2.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "randid": "^1.1.1",
+    "sendmail": "^1.6.1",
+    "telegraf": "^4.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "description": "Bot de Telegram para la Universidad Juáres Autónoma de Tabasco"
+}
