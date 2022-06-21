@@ -150,4 +150,6 @@ bot.on('text', ctx => {
     }
 });
 // Inicia el Bot
-bot.launch();
+
+const PORT = process.env.PORT || 4000
+bot.launch(PORT);
