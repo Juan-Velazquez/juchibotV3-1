@@ -150,6 +150,5 @@ bot.on('text', ctx => {
     }
 });
 // Inicia el Bot
-const PORT = process.env.PORT
-console.long({PORT})
-bot.listen(PORT);
+
+bot.launch();
