@@ -152,6 +152,4 @@ bot.on('text', ctx => {
 // Inicia el Bot
 const PORT = process.env.PORT
 console.long({PORT})
-bot.launch(PORT, function(){
-    console.log("Servidor eschando en el puerto", PORT)
-});
+bot.listen(PORT);
